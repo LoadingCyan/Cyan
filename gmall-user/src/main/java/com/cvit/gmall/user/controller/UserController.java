@@ -1,11 +1,12 @@
 package com.cvit.gmall.user.controller;
 
-import com.cvit.gmall.user.bean.UmsMember;
-import com.cvit.gmall.user.bean.UmsMemberReceiveAddress;
-import com.cvit.gmall.user.service.UserService;
+
+
+import com.cvit.gmall.bean.UmsMember;
+import com.cvit.gmall.bean.UmsMemberReceiveAddress;
+import com.cvit.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 

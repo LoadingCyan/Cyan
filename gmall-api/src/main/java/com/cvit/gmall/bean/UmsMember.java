@@ -1,14 +1,12 @@
-package com.cvit.gmall.user.bean;
+package com.cvit.gmall.bean;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.util.Date;
 
-public class UmsMember {
+public class UmsMember implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String memberLevelId;
     private String username;
@@ -179,30 +177,5 @@ public class UmsMember {
 
     public void setHistoryIntegration(int historyIntegration) {
         this.historyIntegration = historyIntegration;
-    }
-
-    @Override
-    public String toString() {
-        return "UmsMember{" +
-                "id='" + id + '\'' +
-                ", memberLevelId='" + memberLevelId + '\'' +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", nickname='" + nickname + '\'' +
-                ", phone='" + phone + '\'' +
-                ", status=" + status +
-                ", createTime=" + createTime +
-                ", icon='" + icon + '\'' +
-                ", gender=" + gender +
-                ", birthday=" + birthday +
-                ", city='" + city + '\'' +
-                ", job='" + job + '\'' +
-                ", personalizedSignature='" + personalizedSignature + '\'' +
-                ", sourceType=" + sourceType +
-                ", integration=" + integration +
-                ", growth=" + growth +
-                ", luckeyCount=" + luckeyCount +
-                ", historyIntegration=" + historyIntegration +
-                '}';
     }
 }

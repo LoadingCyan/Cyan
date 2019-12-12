@@ -1,4 +1,4 @@
-package com.cvit.gmall.user.bean;
+package com.cvit.gmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;

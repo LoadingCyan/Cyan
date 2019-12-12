@@ -1,6 +1,7 @@
 package com.cvit.gmall.user.mapper;
 
-import com.cvit.gmall.user.bean.UmsMember;
+
+import com.cvit.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.cvit.gmall.user.service;
+package com.cvit.gmall.service;
 
-import com.cvit.gmall.user.bean.UmsMember;
-import com.cvit.gmall.user.bean.UmsMemberReceiveAddress;
+import com.cvit.gmall.bean.UmsMember;
+import com.cvit.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
