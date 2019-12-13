@@ -36,6 +36,12 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+<!--        引入gmall-web-util-->
+        <dependency>
+            <groupId>con.cvit.gmall</groupId>
+            <artifactId>gmall-web-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
